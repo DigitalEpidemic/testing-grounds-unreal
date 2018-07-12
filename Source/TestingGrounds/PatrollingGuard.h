@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2018 Jeffrey Polasz. All Rights Reserved.
 
 #pragma once
 
@@ -14,7 +14,7 @@ class TESTINGGROUNDS_API APatrollingGuard : public ATP_ThirdPersonCharacter
 {
 	GENERATED_BODY()
 
-public: // TODO Remove or create Get
+public:
 	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
 	TArray<AActor*> PatrolPointsCPP;
 	
