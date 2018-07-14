@@ -75,11 +75,16 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-Content/FirstPerson/
+
+# Ignore large assets
 Content/Geometry/
 Content/StarterContent/
-Content/Mannequin/
-Content/ThirdPerson/Meshes/
-Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
-Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-Content/AnimStarterPack/
+Content/Weapons/FPWeapon/
+Content/Trash/
+Content/NPC/Animations/
+Content/NPC/Character/
+Content/Player/Character/
+Content/Player/Animations/
+Content/Player/Audio/
+Content/Player/Meshes/
+Content/Player/Textures/FirstPersonCrosshair.uasset
