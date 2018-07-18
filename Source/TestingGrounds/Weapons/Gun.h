@@ -18,7 +18,12 @@ class TESTINGGROUNDS_API AGun : public AActor
 	/** Location on gun mesh where projectiles should spawn. */
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class USceneComponent* FP_MuzzleLocation;
-	
+
+	UPROPERTY(EditDefaultsOnly, Category = "Firing")
+	float FireRateInSeconds = 0.25;
+
+	double LastFireTime = 0;
+
 public:	
 	// Sets default values for this actor's properties
 	AGun();
